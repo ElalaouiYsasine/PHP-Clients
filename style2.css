@@ -1,0 +1,30 @@
+/* Styles pour le formulaire d'ajout de compte */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button.submit {
+    background-color: #4caf50; /* Couleur verte pour le bouton de soumission */
+    color: #fff;
+}
+
+button.submit:hover {
+    background-color: #45a049; /* Couleur de survol */
+}
